@@ -1,1 +1,95 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600|Nunito:300,400,600");
+
+.navbar-wrapper{
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	background-color: #fff;
+	box-shadow: 0px 0px 0.4rem #E5E5E5;
+	top: 0;
+}
+.navbar-inner-wrapper{
+	display: flex;
+	justify-content: space-between;
+	padding: 3.2rem 1rem;
+	max-width: 960px;
+	margin: 0 auto;
+}
+.navbar-header{
+	font-size: 16px;
+	font-size: 14px
+	font-size:1.6rem;
+	line-height: 20px;
+	line-height: 17px;
+	line-height: 2rem;
+	font-family: "Montserrat",sans-serif;
+	font-weight: 600;
+}
+.navbar{
+	display: flex;
+}
+.navbar-item.active{
+	font-weight: 800;
+	border-bottom: 0.2rem solid #000;
+	padding-bottom: 0.3rem;
+}
+.navbar-item{
+	font-size: 16px;
+	font-size: 14px
+	font-size:1.6rem;
+	line-height: 20px;
+	line-height: 17px;
+	line-height: 2rem;
+	margin: 0 2.4rem;
+}
+
+.banner{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	max-width: 940px;
+	margin: 0 auto;
+}
+.banner-title-wrapper{
+	width: 73%;
+	text-align: center;
+}
+.banner-title{
+	font-family: "Montserrat",sans-serif;
+	font-weight: 800;
+}
+.banner-title-sub{
+	font-size: 24px;
+	font-size: 21px
+	font-size:2.4rem;
+	line-height: 36px;
+	line-height: 31px;
+	line-height: 3.6rem;
+	color: #626262;
+	padding-top: 3.4rem;
+	font-family: "Nunito",sans-serif;
+}
+.banner-cta{
+	margin-top: 4rem;
+}
+.banner-btn{
+	margin:0 3rem;
+	border-radius: 0.2rem;
+}
+.banner-nav-wrapper{
+	font-size: 20px;
+	font-size: 17px
+	font-size: 2rem;
+	line-height: 25px;
+	line-height: 22px;
+	line-height: 2.5rem;
+	position: absolute;
+	bottom: 5rem;
+	text-align: center;
+}
+.banner-nav-link-icon-wrapper{
+	margin-top: 2rem;
+}
