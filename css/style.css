@@ -93,3 +93,27 @@
 .banner-nav-link-icon-wrapper{
 	margin-top: 2rem;
 }
+button
+{
+	border:none;
+	margin:0;
+	padding:0;
+	width:auto;
+	overflow:visible;
+	background:transparent;
+	color:inherit;
+	font:inherit;
+	line-height:normal;
+	-webkit-font-smoothing:inherit;
+	-moz-osx-font-smoothing:inherit;
+	-webkit-appearance:none
+	padding: 1.5rem 4.5rem;
+    border: 0.1rem solid #000;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+button::-moz-focus-inner
+{
+border:0;
+padding:0
+}
